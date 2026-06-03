@@ -50,7 +50,7 @@ async def start(message: types.Message):
         "📢 Botumuzda ünlülerin ifşxlarını görmek istiyorsanız, satın alarak kesintisiz izleyebilirsiniz.\n\n"
         "📞 Destek için:\n"
         "@kiraflexx\n"
-        "@NeonXyl",
+        ,
         parse_mode='HTML',
         reply_markup=main_menu()
     )
